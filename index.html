@@ -27,7 +27,7 @@
         </div>
 
         <!-- form -->
-        <form action="">
+        <form action="" class="space-y-8">
           <!-- student name section -->
 
           <div>
@@ -72,6 +72,272 @@
                 >
               </div>
             </div>
+          </div>
+
+          <!-- BIRTH DATE AND GENDER -->
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- DOB -->
+            <div>
+              <div>
+                <h3 class="text-lg font-semibold text-gray-700 mb-4">
+                  Birth Date
+                </h3>
+                <div class="grid grid-cols-3 gap-2">
+                  <!-- Month -->
+                  <select
+                    name=""
+                    id=""
+                    class="w-full px-4 py-3 border border:gray-300 rounded-lg focus:focus-ring-2 focus:focus-ring-blue-500 font-semibold text-gray-700 mb-4"
+                  >
+                    <option value="">Month</option>
+                    <option value="Jan">Jan</option>
+                    <option value="January">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                  </select>
+
+                  <!-- Day -->
+
+                  <select
+                    name=""
+                    id=""
+                    class="w-full px-4 py-3 border border:gray-300 rounded-lg focus:focus-ring-2 focus:focus-ring-blue-500 font-semibold text-gray-700 mb-4"
+                  >
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+
+                  <!-- year -->
+                  <select
+                    name=""
+                    id=""
+                    class="w-full px-4 py-3 border border:gray-300 rounded-lg focus:focus-ring-2 focus:focus-ring-blue-500 font-semibold text-gray-700 mb-4"
+                  >
+                    <option value="">year</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- gender -->
+              <div>
+                <h3 class="text-lg font-semibold text-gray-700 mb-4">Gender</h3>
+                <select
+                  name=""
+                  id=""
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition-colors"
+                >
+                  <option value="G">Gender</option>
+                  <option value="m">Male</option>
+                  <option value="f">Female</option>
+                  <option value="o">Others</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- ADDRESS -->
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700 mb-4">Address</h3>
+
+            <div class="space-y-4">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Address"
+                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 transition-colors"
+                />
+                <label for="" class="text-sm text-gray-500 mt-1 block"
+                  >Street Address</label
+                >
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  placeholder="Address"
+                  class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                />
+                <label for="" class="text-sm text-gray-500 mt-1 block"
+                  >Address Line2</label
+                >
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- city -->
+                <div>
+                  <input
+                    type="text"
+                    placeholder="City"
+                    class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                  />
+                  <label for="" class="text-sm text-gray-500 mt-1 block"
+                    >City</label
+                  >
+                </div>
+                <!-- state -->
+
+                <div>
+                  <input
+                    type="text"
+                    placeholder="State"
+                    class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                  />
+                  <label for="" class="text-sm text-gray-500 mt-1 block"
+                    >State</label
+                  >
+                </div>
+              </div>
+
+              <!-- pin code -->
+
+              <div>
+                <input
+                  type="text"
+                  placeholder="PinCode"
+                  class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                />
+                <label for="" class="text-sm text-gray-500 mt-1 block"
+                  >Pincode</label
+                >
+              </div>
+
+              <!-- email and mobile  -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- email -->
+                <div>
+                  <label for="text-sm text-gray-500 mt-1 block"
+                    >Student Email</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="e-mail address"
+                    class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                  />
+                </div>
+
+                <!-- mobile number -->
+                <div>
+                  <label for="text-sm text-gray-500 mt-1 block"
+                    >Mobile Number</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="000-000-000-000"
+                    class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                  />
+                </div>
+              </div>
+
+              <!-- phone no & work no -->
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- phone no -->
+                <div>
+                  <label for="text-sm text-gray-500 mt-1 block"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="(000) 000 000"
+                    class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                  />
+                </div>
+
+                <!-- work number -->
+                <div>
+                  <label for="text-sm text-gray-500 mt-1 block"
+                    >Work Number</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="(000)-000-000-000"
+                    class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                  />
+                </div>
+              </div>
+
+              <!-- company and courses -->
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Company -->
+                <div>
+                  <label for="text-sm text-gray-500 mt-1 block"
+                    >Company Name</label
+                  >
+                  <input
+                    type="text"
+                    class="w-full px-4 py-3 border border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-600 transition-colors"
+                  />
+                </div>
+
+                <!-- course -->
+                <div>
+                  <label for="text-sm text-gray-500 mt-1 block">Courses</label>
+                  <select
+                    name=""
+                    id=""
+                    class="w-full px-4 py-3 border border:gray-300 rounded-lg focus:focus-ring-2 focus:focus-ring-blue-500 font-semibold text-gray-700 mb-4"
+                  >
+                    Please select
+                    <option value="A">Arts</option>
+                    <option value="S">Science</option>
+                    <option value="M">Math</option>
+                    <option value="C">Commerce</option>
+                    <option value="P">Physics</option>
+                  </select>
+                </div>
+              </div>
+              <!-- message -->
+
+              <div class="mb-6">
+                <label for="">Message</label>
+                <textarea
+                  rows="5"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline"
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- button -->
+
+            <button
+              class="w-30 h-20 flex items-center justify-center px-4 py-4 bg-green-700 text-white rounded-2xl"
+            >
+              Submit
+            </button>
           </div>
         </form>
       </div>
